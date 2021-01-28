@@ -79,6 +79,16 @@ body, html{
     font-size: min( max(2.2vh, 2.2vw), 130%);
 }
 
+.reponsive-text-h2{
+    font-weight: bold;
+    font-size: min( max(2.4vh, 2.4vw), 150%);
+}
+
+.reponsive-text-h1{
+    font-weight: bold;
+    font-size: min( max(3.5vh, 3.5vw), 250%);
+}
+
 
 .bold-text{
     font-weight: bold;

@@ -1,14 +1,9 @@
 
 body{
-    font-family: arial, "Times New Roman",Helvetica, Verdana, "Noto Sans", sans-serif;
+    font-family:   arial, "Times New Roman",Helvetica, Verdana, "Noto Sans", sans-serif;
 }
 
-.push{
-    height: 10vw;
-    background-color: red;
-
-}
-   
+  
 /* jumbotron */
 .myjumbotron {
     margin-top: 5%;
@@ -97,31 +92,27 @@ body{
     background-image: linear-gradient(to right, #f1f1f1, rgb(122, 122, 122));
 }
 
-#carousel {
-    position: fixed;
-    visibility: hidden;
+@media (max-width: 576px) {
+    #carousel {
+        position: fixed;
+      visibility: hidden;
+    }  
+
 }
 
-
-
-@media (min-width: 600px) {
+@media (min-width: 576px) {
     #event-banner {
         position: fixed;
-        visibility: hidden;
-    }
+      visibility: hidden;
+    }  
 
     #keyspeaker-mobile{
         position: fixed;
         visibility: hidden;
     }
 
-    #carousel {
-        position: static;
-        visibility: visible;
-    }
 
 }
-
 /* center pannel */
 
 .center-panel{
