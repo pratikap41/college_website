@@ -31,22 +31,26 @@ SECRET_KEY = 'on3catp6=i@$(sen1fgkt+5r2f#tc(k@f0zid9h3od7t(z$n)m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1" , "pratikap41.pythonanywhere.com"]
+ALLOWED_HOSTS = ["127.0.0.1" , "pratikap41.pythonanywhere.com" , "143.110.178.156"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'home',
+    'call_for_paper',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -129,5 +133,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,"statics")
 ]
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, "assets")

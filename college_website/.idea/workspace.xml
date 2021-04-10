@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5b6c1a-4634-4eca-8727-d11ed614abc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/college_website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/navigation_bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/navigation_bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/download/cPGCON_2021_Registration_Form.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/download/brochure.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/download/cPGCON_2021_Registration_Form.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/college_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/college_website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/stylesheets/navigation_bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/stylesheets/navigation_bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templets/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/templets/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/college_website/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/college_website/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templets/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templets/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templets/navigation_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templets/navigation_bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templets/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templets/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../opencv" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

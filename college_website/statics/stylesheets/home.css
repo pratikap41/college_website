@@ -54,9 +54,20 @@ body{
 }
 
 /* event-banner */
+.carousel-item{
+    min-height: 650px;
+    max-height: 650px;
+}
+
 .banner-heading{
     font-weight: bold; font-size: min( max(2.8vh,2.8vw), 200%);
-    padding: 4%;
+    padding: 50px;
+    padding-bottom: 0px ;
+}
+
+.banner-heading{
+    font-weight: bold; font-size: min( max(2.8vh,2.8vw), 200%);
+    padding: 1%;
     padding-bottom: 0px ;
 }
 
@@ -67,17 +78,27 @@ body{
 }
 
 .banner-info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding : 4%;
     padding-top: 0px;
     padding-bottom: 0px;
-    min-height: 100%;
 }
 
 .banner-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     padding: 2%;
+}
+
+.banner-img-speaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 
